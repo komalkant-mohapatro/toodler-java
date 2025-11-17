@@ -52,3 +52,40 @@ console.log(typeof scoreValue);
 // implement [[Call]]
 // Object (host and does not Implementation-defined except may not be = "undefined",
 // implement [[Call]])= "boolean", "number", or "string".
+
+
+
+
+
+
+
+
+//..................................MEMORY..........................
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+
+//STACK
+
+let myYoutubename = "hiteshchoudharydotco"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);
+
+
+//HEAP
+
+let userOne = {
+email: "user@google.com",
+upi:   "gmail@upi"
+}
+
+
+
+let userTwo = userOne
+
+
+userTwo.email = "hitesh@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
